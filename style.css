@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #03152e;
+  color: white;
+}
+
+span {
+  font-size: 90px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#hour, #min, #sec {
+  box-shadow: 0 0 15px 5px black;
+}
+
+@media (max-width: 500px) {
+  span {
+    font-size: 50px;
+    margin: 0;
+  }
+}
